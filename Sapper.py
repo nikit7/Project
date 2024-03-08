@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox as mbox
 from random import randint as ri
 
+
 class Sapper:
     def __init__(self, master, rows, cols, mines):
         self.master = master
